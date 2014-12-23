@@ -1,6 +1,5 @@
 body {
     background: black;
-    max-width: 800px;
 }
 
 * {
@@ -8,14 +7,14 @@ body {
 }
 
 #menu {
-    margin: 5px;
+    max-width: 600px;
+    margin: 0 auto;
     border: 5px solid white;
     padding: 5px;
     border-radius: 8px;
     background-image: 
         linear-gradient(blue, transparent),
         linear-gradient(blue, transparent);
-    margin: 0 auto;
 }
 
 #name {
