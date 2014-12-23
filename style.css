@@ -13,7 +13,7 @@ body {
 /* BORDERS */
 
 #menu, #skills, #projects, #locate {
-    border: 5px solid white;
+    border: 4px solid white;
     padding: 5px;
     border-radius: 8px;
     background-image: 
