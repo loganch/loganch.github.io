@@ -1,5 +1,8 @@
 body {
     background: black;
+}
+
+* {
     font-family: 'Verdana';
 }
 
@@ -15,4 +18,34 @@ body {
 
 #name {
     color: white;
+}
+
+#skills {
+    font-family: inherit;
+    color: white;
+    margin: 5px;
+    border: inherit;
+    padding: inherit;
+    border-radius: 8px;
+    width: 60%;
+    
+}
+#projects {
+    float: right;
+    border: inherit;
+    padding: inherit;
+    border-radius: 8px;
+}
+
+#locate {
+    clear: both;
+    float: right;
+    margin: -1px 5px 5px 5px;
+    border: inherit;
+    padding: inherit;
+    border-radius: 8px;
+    color:white;
+      background-image: 
+        linear-gradient(blue, transparent),
+        linear-gradient(blue, transparent);
 }
