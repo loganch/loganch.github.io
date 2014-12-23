@@ -65,3 +65,11 @@ body {
         linear-gradient(blue, transparent),
         linear-gradient(blue, transparent);
 }
+
+.inprogress {
+    color:gray;
+}
+
+.inprogress:after {
+    content: " (In progress)";
+}
