@@ -15,6 +15,7 @@ body {
     background-image: 
         linear-gradient(blue, transparent),
         linear-gradient(blue, transparent);
+    margin: 0 auto;
 }
 
 #name {
