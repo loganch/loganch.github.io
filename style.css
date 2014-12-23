@@ -1,0 +1,18 @@
+body {
+    background: black;
+    font-family: 'Verdana';
+}
+
+#menu {
+    margin: 5px;
+    border: 5px solid white;
+    padding: 5px;
+    border-radius: 8px;
+    background-image: 
+        linear-gradient(blue, transparent),
+        linear-gradient(blue, transparent);
+}
+
+#name {
+    color: white;
+}
