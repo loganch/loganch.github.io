@@ -1,27 +1,158 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Logan Hampton</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-    <body>
-        <div id="menu" class="clearfix">
-            <div id="char"></div>
-            <div id="name">Logan Hampton</div><br/>
-            
-            <div id="skills"><h2>Skills</h2>
-                <ul>
-                    <li>HTML/CSS</li>
-                    <li>JavaScript</li>
-                    <li>Excel VBA</li>
-                    <li>Autohotkey</li>
-                    <li>AutoIT</li>
-                    <li class="inprogress">Python</li>
-                    <li class="inprogress">Ruby</li>
-                </ul>
+
+<head>
+  <title>Logan Hampton</title>
+  <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class='col-md-12'>
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+          <div class="container">
+            <div class='col-md-12'>
+              <div class="navbar-header">
+                <a class="navbar-brand" href="#">Logan Hampton</a>
+              </div>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
             </div>
-            <div id="projects">Projects</div>
-        </div>    
-            <div id="locate">Locate (Social Links)</div>
-    </body>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="home">
+    <div class="container">
+      <div class="jumbotron">
+        <a name="home"></a>
+        <h1 class="text-center">Logan Hampton</h1>
+        <h3 class="text-center">Coder, Problem Solver, Go To Guy</h3>
+        <hr />
+
+        <div class="text-center">
+          <a target="_blank" class="btn btn-default" href="https://twitter.com/losesmc"><i class="fa fa-twitter"></i> Twitter</a>
+          <a target="_blank" class="btn btn-default" href="https://github.com/loganch"><i class="fa fa-github"></i> Github</a>
+          <a target="_blank" class="btn btn-default" href="https://www.linkedin.com/in/loganhampton"><i class="fa fa-linkedin"></i> LinkedIn</a>
+          <a class="btn btn-default" href="http://www.freecodecamp.com/loganch" target="_blank"><i class="fa fa-code"></i> freeCodeCamp</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="about">
+    <div class="container">
+      <a name="about"></a>
+      <div class="row">
+        <div class="col-md-4 well">
+          <h2>Logan Hampton</h2>
+          <p>I'm a lover of technology that enjoys finding out how to make things work better for myself and others. Initially self-taught but continually on the path to learning more to improve my skills.</p>
+          <h3>Competencies:</h3>
+          <h4>Languages and Frameworks:</h4>
+          <h5>AutoHotKey, AutoIT, Bootstrap, CSS, HTML5, JavaScript, jQuery, Python, Ruby, VBA, Visual Basic</h5>
+          <h4>Tools and Expertise</h4>
+          <h5>Git, Regular Expressions, XPath, Microsoft Office</h5>
+        </div>
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4">
+          <img src="http://i.imgur.com/KrDaLoH.jpg" class="img-responsive img-rounded" alt="Logan Hampton" style="max-height: 375px" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <a name="portfolio"></a>
+          <h1 class="text-center">Portfolio</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <h3>Prime Properties</h3>
+          <a target="_blank" href="http://loganch.github.io/prime-properties/"><img class="img-responsive" alt="Prime Properties" src="http://i.imgur.com/Yh5uH54.png"></a>
+          <p>Semester length project demonstrating advancement in knowledge of web standards, design, and responsiveness.
+          </p>
+          <div class="text-center"><i>HTML5, CSS3, JavaScript, Git</i></div>
+        </div>
+        <div class="col-md-4">
+          <h3>Acrobat Comment Fix</h3>
+          <a target="_blank" href="https://github.com/loganch/fixAcrobatComments"><img class="img-responsive port-img" alt="Acrobat Comment Fix" src="http://i.imgur.com/2XRNipQ.png"></a>
+          <p>Developed an Acrobat script that fixed the oversized fonts of Caret annotations that occur in comment summaries.</p>
+          <div class="text-center"><i>JavaScript</i></div>
+        </div>
+        <div class="col-md-4">
+          <h3>XBRL Filing Scraper</h3>
+          <img class="img-responsive port-img" alt="Project Image" src="http://i.imgur.com/GmROL4i.png">
+          <p>I wrote a small script in Ruby that scrapes the SEC's RSS XBRL Filing feed and parsed out my company's jobs, outputting the results into a CSV to import into another document.</p>
+          <div class="text-center"><i>Ruby, XML, XPath</i></div>
+        </div>
+
+        <div class="col-md-4">
+          <h3>Random Quote Machine</h3>
+          <a href="http://codepen.io/loganch/pen/QyqZKW">
+            <img class="img-responsive port-img" alt="Random Quote Machine" src="img/random_quote_machine.png"></a>
+          <p></p>
+          <div class="text-center"><i>HTML, CSS3, JavaScript, jQuery</i></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <a name="contact"></a>
+          <h2>Reach Me:<br/>
+        <a href="mailto:losesmc@gmail.com">losesmc@gmail.com</a>
+    </h2>
+        </div>
+        <div class="col-md-4">
+          <div class="">
+            <a target="_blank" class="btn btn-default" href="https://twitter.com/losesmc"><i class="fa fa-twitter"></i> Twitter</a>
+            <br/>
+            <br/>
+            <a target="_blank" class="btn btn-default" href="https://github.com/loganch"><i class="fa fa-github"></i> Github</a>
+            <br/>
+            <br/>
+            <a target="_blank" class="btn btn-default" href="https://www.linkedin.com/in/loganhampton"><i class="fa fa-linkedin"></i> LinkedIn</a>
+            <br/>
+            <br/>
+            <a class="btn btn-default" href="http://www.freecodecamp.com/loganch" target="_blank"><i class="fa fa-code"></i> freeCodeCamp</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="footer">
+    <div class="container">
+
+      <nav>
+        <ul class="nav nav-pills nav-justified">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <small>&copy; 2015 Logan Hampton</small>
+    </div>
+  </div>
+</body>
+
 </html>

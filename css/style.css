@@ -1,0 +1,32 @@
+#home, #about, #portfolio, #contact {
+  padding-top: 70px;
+  min-height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#home {
+  background-image: url('../img/home.jpg');
+}
+#about {
+  background-image: url('../img/about.jpg');
+}
+#portfolio {
+  background-image: url('../img/portfolio.jpg');
+}
+#contact {
+  background-image: url('../img/contact.jpg');
+}
+
+.vertical-center {
+  min-height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.port-img {
+  max-height: 300px;
+}
