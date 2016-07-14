@@ -80,21 +80,33 @@
           <h1 class="text-center">Portfolio</h1>
         </div>
       </div>
-      <div class="row-fluid carousel slide vertical" id="folio">
+      <div class="carousel slide" id="folio" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#folio" data-slide-to="0" class="active"></li>
+          <li data-target="#folio" data-slide-to="1""></li>
+          <li data-target="#folio" data-slide-to="2""></li>
+        </ol>
+
         <div class="carousel-inner">
+
           <div class="item active">
             <h3>Prime Properties</h3>
             <a target="_blank" href="http://loganch.github.io/prime-properties/"><img class="img-responsive" alt="Prime Properties" src="http://i.imgur.com/Yh5uH54.png"></a>
-            <p>Semester length project demonstrating advancement in knowledge of web standards, design, and responsiveness.
-            </p>
-            <div class="text-center"><i>HTML5, CSS3, JavaScript, Git</i></div>
+            
+            <div class="carousel-caption">
+             <p>Semester length project demonstrating advancement in knowledge of web standards, design, and responsiveness.
+              </p>
+              <div class="text-center"><i>HTML5, CSS3, JavaScript, Git</i></div>
+            </div>
           </div>
+
           <div class="item">
             <h3>Acrobat Comment Fix</h3>
             <a target="_blank" href="https://github.com/loganch/fixAcrobatComments"><img class="img-responsive port-img" alt="Acrobat Comment Fix" src="http://i.imgur.com/2XRNipQ.png"></a>
             <p>Developed an Acrobat script that fixed the oversized fonts of Caret annotations that occur in comment summaries.</p>
             <div class="text-center"><i>JavaScript</i></div>
           </div>
+
           <div class="item">
             <h3>XBRL Filing Scraper</h3>
             <img class="img-responsive port-img" alt="Project Image" src="http://i.imgur.com/GmROL4i.png">
@@ -104,14 +116,14 @@
 
           <div class="item">
             <h3>Random Quote Machine</h3>
-            <a href="http://codepen.io/loganch/pen/QyqZKW">
-              <img class="img-responsive port-img" alt="Random Quote Machine" src="img/random_quote_machine.png"></a>
+            <p data-height="401" data-theme-id="0" data-slug-hash="QyqZKW" data-default-tab="result" data-user="loganch" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/loganch/pen/QyqZKW/">Random Quote Machine (FCC)</a> by Logan C H (<a href="http://codepen.io/loganch">@loganch</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
             <p></p>
             <div class="text-center"><i>HTML, CSS3, JavaScript, jQuery</i></div>
           </div>
         </div>
-        <a class="carousel-control left" href="#folio" data-slide="prev">&#60;</a>
-        <a class="carousel-control right" href="#folio" data-slide="next">&#62;</a>
+        <a class="carousel-control left" href="#folio" data-slide="prev"></a>
+        <a class="carousel-control right" href="#folio" data-slide="next"></a>
       </div>
     </div>
   </div>
@@ -157,9 +169,9 @@
       <small>&copy; 2016 Logan Hampton</small>
     </div>
   </div>
-  <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+  <script src="http://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJs7xS" crossorigin="anonymous"></script>
-  <script src="js/folio.js" />
+  <script src="js/folio.js"></script>
 </body>
 
 </html>
