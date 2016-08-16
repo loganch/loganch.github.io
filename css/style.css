@@ -46,9 +46,13 @@
   background-color: black;
 }
 
-.carousel-cntrol {
+.carousel-control {
   max-width: 50px;
   width: 50px;
+}
+
+.slider-size {
+  height: 450px;
 }
 
 /*.vertical .carousel-inner {
